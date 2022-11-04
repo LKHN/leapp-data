@@ -1,0 +1,44 @@
+{
+    "datetime": "202211040930Z",
+    "version_format": "1.0.0",
+    "mapping": [
+        {
+            "source_major_version": "7",
+            "target_major_version": "8",
+            "entries": [
+                {
+                    "source": "docker-ce-stable",
+                    "target": [
+                        "docker-ce-stable-8"
+                    ]
+                }
+            ]
+        }
+    ],
+    "repositories": [
+        {
+            "pesid": "docker-ce-stable",
+            "entries": [
+                {
+                    "repoid": "docker-ce-stable",
+                    "major_version": "7",
+                    "repo_type": "rpm",
+                    "arch": "x86_64",
+                    "channel": "ga"
+                }
+            ]
+        },
+        {
+            "pesid": "docker-ce-stable-8",
+            "entries": [
+                {
+                    "repoid": "docker-ce-stable-8",
+                    "major_version": "8",
+                    "repo_type": "rpm",
+                    "arch": "x86_64",
+                    "channel": "ga"
+                }
+            ]
+        }
+    ]
+}
